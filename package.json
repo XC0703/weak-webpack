@@ -1,0 +1,21 @@
+{
+  "name": "weak-webpack",
+  "version": "1.0.0",
+  "license": "ISC",
+  "description": "构建一个简易版 Webpack，以便对其原理有进一步的认识。",
+  "scripts": {
+    "build": "node bundle.js",
+    "build_withplugin": "node bundle_withplugin.js"
+  },
+  "repository": "https://github.com/XC0703/weak-webpack",
+  "author": "明远湖之鱼",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/parser": "^7.27.0",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/traverse": "^7.27.0"
+  },
+  "dependencies": {
+    "tapable": "^2.2.1"
+  }
+}
