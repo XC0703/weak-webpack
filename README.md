@@ -6,6 +6,8 @@
 
 本人带领读者构建一个简易版 Webpack，以便对其原理有进一步的认识。（更多原理请看源码或者其他博主的文章），相关代码已经上传到仓库[weak-webpack](https://github.com/XC0703/weak-webpack)。
 
+本文档已同步掘金文章：[《手把手带你实现一个自己的简易版 Webpack》](https://juejin.cn/post/7496341294589231155)。
+
 # 2、初始化项目
 
 ```bash
@@ -96,7 +98,7 @@ npm install @babel/parser @babel/traverse @babel/core @babel/preset-env --save-d
 通过 `node bundle.js` 命令运行打包逻辑，在 `scripts` 里面写为：
 
 ```json
-// package.jsons
+// package.json
 
   "scripts": {
     "build": "node bundle.js"
